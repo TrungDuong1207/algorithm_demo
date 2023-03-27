@@ -1,6 +1,6 @@
 function solve(arr) {
     function checkPrime(x) {
-        if (x == 0 || x == 1) {
+        if (x <= 1) {
             return false;
         }
         for (let i = 2; i < x; i++) {
